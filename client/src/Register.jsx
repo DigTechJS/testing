@@ -9,7 +9,7 @@ export default function Register(){
         ev.preventDefault();
     
         try {
-            await fetch(`http://localhost:4000/register`,{
+            await fetch(`https://testing-xi.vercel.app/register`,{
                 method: 'POST',
                 body:JSON.stringify({username,password}),
                 headers:{'Content-Type': 'application/json'}
