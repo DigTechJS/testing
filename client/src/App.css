@@ -1,0 +1,99 @@
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  padding: .5rem 2rem;
+  width:100svw;
+  background-color: #110101f5;
+  border-bottom: 1px solid #ccc;
+
+}
+.header a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 1rem;
+
+}
+
+.logo{
+  width: 50px;
+  height:50px;
+  
+}
+
+.mainContent h1{
+  position: absolute;
+  width:70%;
+  top:30%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color: #000000e4;
+  color: white;
+  padding:1.5rem;
+  text-align: center;
+  font-size:2rem;
+  border-radius: 10px;
+  
+}
+.hindi{
+  position: absolute;
+  width:70%;
+  top:55%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color: #000000e4;
+  color: white;
+  padding:1.5rem;
+  text-align: center;
+  font-size:2rem;
+  border-radius: 10px;
+  
+}
+.mainContent p{
+  position: absolute;
+  width:70%;
+  top:80%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color: #000000e4;
+  color: white;
+  padding:1.5rem;
+  text-align: center;
+  font-size:1.5rem;
+  border-radius: 10px;
+}
+
+form.login,form.register{
+  max-width: 400px;
+  margin:2rem auto;
+  
+
+}
+form.login input, form.register input {
+
+  display: block;
+  width:100%;
+  margin:5px 0px;
+  padding:5px;
+  border:2px solid #080000;
+  border-radius: 5px;
+}
+form.login button, form.register button{
+  width:100%;
+  padding:5px;
+  background-color: #555;
+  border:2px solid #080000;
+  border-radius: 5px;
+  color: #fff;
+}
+form.login h1, form.register h1{
+  text-align:center;
+}
+
+
+
