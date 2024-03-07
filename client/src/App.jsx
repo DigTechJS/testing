@@ -4,7 +4,7 @@ import {Route ,Routes} from 'react-router-dom';
 import './App.css'; 
 import Header from './Header.jsx';
 import Frontpage from './Frontpage.jsx';
-import 'Home' from './Home.jsx';
+import Home from './Home.jsx';
 import Login from './Login.jsx';
 import Register from './Register.jsx';
 import Layout from './Layout.jsx';
