@@ -8,7 +8,7 @@ export default function Login(){
     async function login(ev){
         ev.preventDefault();
         const res=await fetch( `https://testing-xi.vercel.app/login`,{
-            method: ['POST', 'GET'],
+            method: 'POST',
             credentials: 'include',
             body:JSON.stringify({username,password}),
             headers:{'Content-Type': 'application/json'},
