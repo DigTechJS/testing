@@ -27,7 +27,7 @@ export default function Login(){
         }
     }
     if(redirect){
-        return <Navigate to={'/'}/>
+        return <Navigate to={'/home'}/>
     }
     return(
             <form className="login" onSubmit={login}>
