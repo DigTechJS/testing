@@ -11,7 +11,11 @@ export default function Login(){
             method: 'POST',
             credentials: 'include',
             body:JSON.stringify({username,password}),
-            headers:{'Content-Type': 'application/json'},
+            headers:{
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': 'https://frontend-jet-ten.vercel.app',
+
+        },
             
 
         })
