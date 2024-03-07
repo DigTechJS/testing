@@ -10,7 +10,7 @@ const jwt=require('jsonwebtoken');
 const secret="flnkjsdfuy*&^%7yu43545"
 app.use(cors({
   credentials:true,
-  origin:'https://frontend-jet-ten.vercel.app/'
+  origin:'https://frontend-jet-ten.vercel.app'
 }))
 app.use(express.json())
 
