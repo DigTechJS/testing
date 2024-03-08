@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 import {Route ,Routes} from 'react-router-dom';
 import './App.css'; 
-import Header from './Header.jsx';
 import Frontpage from './Frontpage.jsx';
 import Home from './Home.jsx';
 import Login from './Login.jsx';
@@ -26,6 +25,7 @@ function App() {
           <Route path={'/home'} element={
             <Home/>
           }/>
+          
 
 
         </Route>
